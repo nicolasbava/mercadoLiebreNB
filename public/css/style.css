@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --clr-yellow: #EAC926;
+    --clr-blue: #03264C;
+    --clr-lightblue: #1259c3;
+    --clr-darkgrey: #666;
+    --clr-lightgrey: #ebebeb;
+    --clr-green: #39b54a;
+    --ff: 'Roboto', sans-serif;
+    --ff-sizeD : 16px;
+    --ff-size-price: 18px;
+    --ff-title: 24px;
+    --ff-text: 12px;
+}
+
+body {
+    font-family: var(--ff);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+p,
+li { 
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+ /*
+  * ─── 01 HEADER ──────────────────────────────────────────────────────────────────
+  */
+
+     
+
+header {
+    background-color: var(--clr-yellow);
+    margin-bottom: -1.5em;
+}
+
+
+
+header img {
+    width: 62%;
+    padding: 1em;
+}
+
+header .barra-busqueda {
+    border: 1px solid var(--clr-lightgrey);
+    border-radius: 2px;
+    background-color: #fff;
+    margin-left: .5em;
+    margin-right: 2em;
+    padding-left: .2em;
+    padding-block: .1em;
+    color: var(--clr-darkgrey);
+}
+
+header p {
+    margin-left: 2em;
+}
+
+header ul {
+    margin-bottom: 1em;
+    margin-left: .3em;
+}
+
+.login {
+    padding-bottom: 1em;
+}
+
+header ul li {
+    list-style: none;
+}
+
+.burger-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1em;
+}
+
+.burger {
+    display: inline-block;
+    background-color: var(--clr-lightblue);
+    border-radius: 5px;
+    color: var(--clr-lightgrey);
+    font-size: 1.5rem;
+    padding: .4em;
+}
+
+
+/*
+ * ─── 02- MAIN ───────────────────────────────────────────────────────────────────
+ */
+
+    main { 
+        background-color: var(--clr-lightgrey);
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    main h3 {
+        padding-top: 2em;
+        font-size: var(--ff-title);
+        
+    }
+
+    main section {
+        margin-bottom: 1em;
+    }
+
+    main article {
+        text-align: left;
+        background-color: white;
+        margin: 1em;
+        padding: 1em;
+        border-radius: 5px;
+    }
+
+    main article h4,
+    main article p {
+        margin: 0;
+        padding: 0;
+    }
+
+    main article h4 {
+        font-size: var(--ff-title);
+        margin-bottom: .5em;
+    }
+
+    .descuento {
+        font-size: var(--ff-sizeD);
+        margin-bottom: .5em;
+    }
+
+    .precio { 
+        font-size: var(--ff-size-price);
+    }
+
+
+
+/*
+ * ─── 03- FOOTER ─────────────────────────────────────────────────────────────────
+ */
+
+footer {
+    text-align: center;
+}
+
+footer article h4 {
+    font-size: var(--ff-title);
+    margin-bottom: .01em;
+}
+
+footer article p {
+    margin-inline: 6%;
+    font-size: var(--ff-sizeD);
+    margin-top: .1em;
+
+}
+
+.copyright {
+    font-size: var(--ff-text);
+    margin-top: 3em;
+}
+
+
+
+
